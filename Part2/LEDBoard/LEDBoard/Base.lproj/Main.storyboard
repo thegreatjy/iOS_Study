@@ -28,6 +28,8 @@
                         <constraints>
                             <constraint firstItem="uDI-62-YxA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="99h-ww-LsP"/>
                             <constraint firstItem="uDI-62-YxA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NUN-wg-jhx"/>
+                            <constraint firstItem="uDI-62-YxA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hYv-mr-I5m"/>
+                            <constraint firstItem="uDI-62-YxA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qS8-jD-NIA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG2-3y-z8m">
@@ -84,20 +86,20 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="J4V-6T-B0b">
                                         <rect key="frame" x="0.0" y="35.5" width="196" height="46"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsd-BJ-YND">
+                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsd-BJ-YND">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="46"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="purple_circle"/>
                                                 <connections>
-                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="clG-Az-u5a"/>
+                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="txR-5r-d1X"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5M-UA-2oN">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5M-UA-2oN">
                                                 <rect key="frame" x="70" y="0.0" width="56" height="46"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="yellow_circle"/>
                                                 <connections>
-                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="fb7-Yt-HYb"/>
+                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="JgE-4N-v73"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLR-zH-y4w">
@@ -105,7 +107,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="green_circle"/>
                                                 <connections>
-                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="fK2-yf-lx0"/>
+                                                    <action selector="tapTextColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="qoZ-1m-CMG"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -129,12 +131,12 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="MV1-Nc-lq2">
                                         <rect key="frame" x="0.0" y="35.5" width="196" height="46"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWZ-yH-XqW">
+                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWZ-yH-XqW">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="46"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="orange_circle"/>
                                                 <connections>
-                                                    <action selector="tapBackgroundColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="AeY-dh-S6q"/>
+                                                    <action selector="tapBackgroundColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="8jE-ro-EcZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yN-mJ-utP">
@@ -145,7 +147,7 @@
                                                     <action selector="tapBackgroundColorButton:" destination="RFx-7g-1qG" eventType="touchUpInside" id="qPO-n1-hwu"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-E4-Un1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-E4-Un1">
                                                 <rect key="frame" x="140" y="0.0" width="56" height="46"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="black_circle"/>
