@@ -9,3 +9,5 @@ cellForRowAt
 dequeueReusableCell :
 cell 재활용 > 메모리 아낌, 효율적 사용 가능 
 !역할 자세히 알아보기
+
+userDefault 기본 저장소에 데이터 저장/어플을 껐다 켜도 저장되어있음
